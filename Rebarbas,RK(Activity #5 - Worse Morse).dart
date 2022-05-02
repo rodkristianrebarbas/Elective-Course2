@@ -1,0 +1,41 @@
+import 'dart:core';
+
+    void findTranslation(var map, var translation)
+    {
+        if ((map != null) && (!map.isEmpty)) {
+          int i = 0;
+          while(i<26){
+            
+                if (map.startsWith(code[i])) {
+                    var currtranslate = (translation + letters[i]);
+                    var restmessage = map.substring(code[i].length);
+                    if (!restmessage.isEmpty) {
+                        findTranslation(restmessage, currtranslate);
+                    } else {
+                        print(currtranslate);
+                    }
+                }
+            i++;
+          }
+        }
+    }
+
+    void main(List<String> args)
+    {
+        String l = "-..-----.";
+        findTranslation(l, "");
+    }
+
+    bool validate(var l){
+      for(var i=0;i<26;i++)
+        if(l==code[i])
+          return true;
+        return false;
+    }
+
+var code = [".-", "-...", "-.-.", "-..", ".", "..-.",
+             "--.", "....", "..", ".---", "-.-", ".-..",
+             "--", "-.", "---", ".--.", "--.-", ".-.",
+             "...", "-", "..-", "...-", ".--", "-..-",
+             "-.--", "--.."];
+var letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
