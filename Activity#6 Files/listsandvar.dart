@@ -6,7 +6,19 @@ listsandvar.dart -> Import File/Header File
 classesandmethods.dart -> Import File/Header File
 */
 
+/*
+I create listsandvar.dart file in order to have the
+rebarbasOOP.dart main file smaller lines of code
+*/
+
 //Lists
+
+/*
+All of the lists have five elements each, all of the lists are growable.
+All of them will be used in the methods in classesandmethods.dart
+Except of the empty lists lentu and lentuser
+Empty lists still be used in the methods in classesandmethods.dart
+*/
 
 //Book List
 var books = [
@@ -41,6 +53,11 @@ List<dynamic> lentu = [];
 List<dynamic> lentuser = [];
 
 //Variables
+
+/*
+All of the variables below are used in the methods in
+classesandmethods.dart
+*/
 
 //choosers
 int choose = 0;
