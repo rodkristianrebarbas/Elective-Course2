@@ -9,7 +9,7 @@ import 'listsandvar.dart';
 import 'dart:io';
 
 //OOP type: Inheritance
-//MainMenu class -> Base Class
+//MainMenu class -> Derived from BookSystem class
 class MainMenu extends BookSystem {
   //System Menu
   void menu() {
@@ -33,7 +33,7 @@ class MainMenu extends BookSystem {
   }
 }
 
-//BookSystem class -> Derived from MainMenu Class
+//BookSystem class -> Base class
 class BookSystem {
   //Case 1: Show current # of books method
   void showcurrentnoofbooks() {
