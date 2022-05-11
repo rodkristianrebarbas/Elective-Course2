@@ -1,3 +1,5 @@
+//Copyright © Rebarbas,RK/Kurisu/Kryss
+
 /*
 rebarbasOOP.dart -> Main File
 listsandvar.dart -> Import File/Header File
