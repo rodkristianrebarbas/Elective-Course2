@@ -49,6 +49,7 @@ var genre = [
 //Book Count List(One per book)
 List<int> manybooks = [1, 1, 1, 1, 1];
 //Empty lists for lending and returning of books
+//The two empty list will be used in temporary storage of elements
 List<dynamic> lentu = [];
 List<dynamic> lentuser = [];
 
