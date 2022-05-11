@@ -29,7 +29,7 @@ var genre = [
   'Computer Science',
   'Philosophy',
   'Pure Science',
-  'Art and Creation',
+  'Art and Rereation',
   'History'
 ];
 //Book Count List(One per book)
