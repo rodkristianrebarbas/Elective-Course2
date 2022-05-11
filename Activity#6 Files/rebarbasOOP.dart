@@ -1,3 +1,5 @@
+//Copyright © Rebarbas,RK/Kurisu/Kryss
+
 /*
 Rod Kristian J. Rebarbas
 BSCpE 3A
