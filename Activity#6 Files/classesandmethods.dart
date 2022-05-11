@@ -6,6 +6,13 @@ listsandvar.dart -> Import File/Header File
 classesandmethods.dart -> Import File/Header File
 */
 
+/*
+I create classesandmethods.dart same as listandvar.dart,
+to make the main file lines of code smaller.
+This file holds the classes and methods which can be used 
+to execute the file through main file.
+*/
+
 //Imports.....for variables and lists, see listsandvar.dart
 import 'listsandvar.dart';
 import 'dart:io';
