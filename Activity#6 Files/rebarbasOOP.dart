@@ -20,6 +20,6 @@ import 'classesandmethods.dart';
 void main(List<String> args) {
   //Creating object mm to access the MainMenu class
   MainMenu mm = new MainMenu();
-  //Object accessing the menu method from MainMenu class
+  //Object mm accessing the menu method from MainMenu class
   mm.menu();
 }
