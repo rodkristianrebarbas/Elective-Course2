@@ -71,7 +71,7 @@ class BookSystem {
   }
 
   /*Case 2: Show book data method. I use for loop to print
-    the elements inside books list*/
+    the elements inside books, author, isbn, genre and manybooks lists.*/
   void showbookdata() {
     print("\n|================Books=================|\n");
     stdout.writeln(
