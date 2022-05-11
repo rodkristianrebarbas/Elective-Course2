@@ -1,4 +1,4 @@
---Copyright © Rebarbas,RK/Kurisu/Kryss
+//Copyright © Rebarbas,RK/Kurisu/Kryss
 
 /*
 rebarbasOOP.dart -> Main File
