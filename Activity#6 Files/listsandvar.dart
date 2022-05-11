@@ -8,7 +8,7 @@ classesandmethods.dart -> Import File/Header File
 
 /*
 I create listsandvar.dart file in order to have the
-rebarbasOOP.dart main file smaller lines of code
+rebarbasOOP.dart main file lines of code smaller
 */
 
 //Lists
